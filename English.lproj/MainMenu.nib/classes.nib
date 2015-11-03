@@ -1,0 +1,22 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {fetchUrl = id; refetchUrl = id; }; 
+            CLASS = GetExampleDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                authName = id; 
+                authPanel = id; 
+                authPass = id; 
+                authPrompt = id; 
+                authRealm = id; 
+                resultsTextView = id; 
+                statusTextField = id; 
+                urlTextField = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
